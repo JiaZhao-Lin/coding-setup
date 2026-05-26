@@ -1,0 +1,8 @@
+{	
+	"python.analysis.extraPaths": [
+			"/opt/homebrew/opt/root/lib/root",
+			"common/"
+		],
+	"latex-workshop.latex.autoBuild.run": "onFileChange",
+	// "python.envFile": "${workspaceFolder}/.env",
+}
