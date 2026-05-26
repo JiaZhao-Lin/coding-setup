@@ -5,6 +5,8 @@ This allow import ROOT in venv
 	echo 'source $(brew --prefix root)/bin/thisroot.sh' >> .venv/bin/activate
 
 ## Python
+	pip3 install --upgrade pip
+	pip3 install isort
 	pip3 install notebook
 	pip3 install pandas
 	pip3 install matplotlib
